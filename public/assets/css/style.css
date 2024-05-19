@@ -1,0 +1,65 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #5e6e82 !important;
+}
+
+p {
+    font-size: 15px !important;
+}
+
+.rmf-bg-primary {
+    background-color: #e2eaf8 !important;
+}
+
+.shadow {
+    -webkit-box-shadow: 1px 3px 11px 0px rgba(222, 222, 222, 1) !important;
+    -moz-box-shadow: 1px 3px 11px 0px rgba(222, 222, 222, 1) !important;
+    box-shadow: 1px 3px 11px 0px rgba(222, 222, 222, 1) !important;
+}
+
+table {
+    font-size: 14px !important;
+}
+
+/* .rm-table table td {
+    min-width: 160px;
+}
+.rm-table table th {
+    min-width: 30px;
+} */
+
+main {
+    min-height: 80vh;
+}
+
+.sidebar nav a {
+    color: #5e6e82 !important;
+}
+.sidebar nav a:hover {
+    color: #5c87bd !important;
+}
+.sidebar nav .active {
+    color: #0d5bb9 !important;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    right: 0 !important;
+    left: auto;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.fm-gradient {
+    border-radius: var(--Spacing-3, 12px);
+    background: linear-gradient(180deg, #fff 0%, #dbeafe 100%);
+
+    /* Sahdow-1 */
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.rm-bg-gradient {
+    background: linear-gradient(
+        249deg,
+        #fff9ec -3.66%,
+        #fff 41.32%,
+        #edf5ff 92.87%
+    );
+}
